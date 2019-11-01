@@ -52,7 +52,7 @@
 // };
 
 
-//Attempt number 2 - sing two parallel stacks, more space but less time
+//Attempt number 2 - sing two parallel stacks
 
 /**
  * initialize your data structure here.
