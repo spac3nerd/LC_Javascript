@@ -1,0 +1,8 @@
+{
+  "name": "LeetCodeJS",
+  "version": "0.0.1",
+  "scripts": {
+    "run155": "node %NODE_DEBUG_OPTION% ./155_MinStack/155.js --arguments"
+  },
+  "private": true
+}
