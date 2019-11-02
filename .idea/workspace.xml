@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af35f032-76f8-44ba-9c26-83cee20f3236" name="Default Changelist" comment="" />
+    <list default="true" id="af35f032-76f8-44ba-9c26-83cee20f3236" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7_ReverseInteger/7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-end-line="37" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -59,11 +61,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/50_PowXN/50.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="34" column="113" selection-start-line="34" selection-start-column="113" selection-end-line="34" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -88,10 +99,11 @@
         <option value="$PROJECT_DIR$/155_MinStack/155.js" />
         <option value="$PROJECT_DIR$/205_IsomorphicString/205.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/2_AddTwoNums/2.js" />
         <option value="$PROJECT_DIR$/20_ValidParantheses/20.js" />
         <option value="$PROJECT_DIR$/7_ReverseInteger/7.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/50_PowXN/50.js" />
       </list>
     </option>
   </component>
@@ -118,11 +130,6 @@
               <item name="leetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Desktop/leetCode/LC_Javascript" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="leetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/leetCode/LC_Javascript" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="2_AddTwoNums" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -137,7 +144,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572638262539" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/7_ReverseInteger/7.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/50_PowXN/50.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -155,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.7ReverseInteger">
+  <component name="RunManager" selected="Node.js.50PowXN">
     <configuration name="155MinStack" type="NodeJSConfigurationType" path-to-js-file="155_MinStack/155.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -166,6 +173,9 @@
       <method v="2" />
     </configuration>
     <configuration name="2AddTwoNumbers" type="NodeJSConfigurationType" path-to-js-file="2_AddTwoNums/2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="50PowXN" type="NodeJSConfigurationType" path-to-js-file="50_PowXN/50.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="7ReverseInteger" type="NodeJSConfigurationType" path-to-js-file="7_ReverseInteger/7.js" working-dir="$PROJECT_DIR$">
@@ -191,11 +201,41 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="20ValidParantheses" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run20" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="2AddTwoNumbers" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="run2" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="50PowXN" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run50" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="7ReverseInteger" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run7" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -215,7 +255,11 @@
       <item itemvalue="Node.js.2AddTwoNumbers" />
       <item itemvalue="Node.js.20ValidParantheses" />
       <item itemvalue="Node.js.7ReverseInteger" />
+      <item itemvalue="Node.js.50PowXN" />
       <item itemvalue="npm.155MinStack" />
+      <item itemvalue="npm.7ReverseInteger" />
+      <item itemvalue="npm.20ValidParantheses" />
+      <item itemvalue="npm.50PowXN" />
       <item itemvalue="npm.205IsomorphicString" />
       <item itemvalue="npm.2AddTwoNumbers" />
     </list>
@@ -231,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1572624057469</updated>
       <workItem from="1572624061573" duration="6349000" />
-      <workItem from="1572649472246" duration="8735000" />
+      <workItem from="1572649472246" duration="12222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15084000" />
+    <option name="totallyTimeSpent" value="18571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1048" extended-state="6" />
@@ -291,6 +335,11 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -362,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/155_MinStack/155.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -392,11 +434,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7_ReverseInteger/7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-end-line="37" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/50_PowXN/50.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="113" selection-start-line="34" selection-start-column="113" selection-end-line="34" selection-end-column="113" />
         </state>
       </provider>
     </entry>
