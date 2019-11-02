@@ -44,7 +44,8 @@ var addTwoNumbers_imp1 = function(l1, l2) {
 
 
 
-//Second Implementation - I realized that having the integers in a reversed linked list is actually beneficial since we can compute the result piecewise
+//Second Implementation - I realized that having the integers in a reversed linked
+//  list is actually beneficial since we can compute the result piecewise
 var addTwoNumbers = function(l1, l2) {
     //quick function to help us out
     function sum(v1, v2) {
