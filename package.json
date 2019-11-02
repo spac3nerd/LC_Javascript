@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "run155": "node %NODE_DEBUG_OPTION% ./155_MinStack/155.js --arguments",
-    "run205": "node %NODE_DEBUG_OPTION% ./205_IsomorphicString/205.js --arguments"
+    "run205": "node %NODE_DEBUG_OPTION% ./205_IsomorphicString/205.js --arguments",
+    "run2": "node %NODE_DEBUG_OPTION% ./2_AddTwoNums/2.js --arguments"
   },
   "private": true
 }
