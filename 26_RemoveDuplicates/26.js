@@ -21,7 +21,6 @@ var removeDuplicates = function(nums) {
             acc.push(cur)
         return acc;
     }, []);
-    console.log(nums);
 
     return nums.length;
 };

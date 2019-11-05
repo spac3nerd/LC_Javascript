@@ -9,7 +9,9 @@
     "run20": "node %NODE_DEBUG_OPTION% ./20_ValidParantheses/20.js --arguments",
     "run69": "node %NODE_DEBUG_OPTION% ./69SqrtX/69.js --arguments",
     "run50": "node %NODE_DEBUG_OPTION% ./50_PowXN/50.js --arguments",
-    "run32": "node %NODE_DEBUG_OPTION% ./32_LongestValidParantheses/32.js --arguments"
+    "run32": "node %NODE_DEBUG_OPTION% ./32_LongestValidParantheses/32.js --arguments",
+    "run26": "node %NODE_DEBUG_OPTION% ./26_RemoveDuplicates/26.js --arguments",
+    "run14": "node %NODE_DEBUG_OPTION% ./14_LongestCommonPrefix/14.js --arguments"
   },
   "private": true
 }

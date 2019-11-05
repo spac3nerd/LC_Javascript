@@ -54,7 +54,7 @@ var longestValidParentheses_attempt1 = function(s) {
     return longestPair;
 };
 
-//Attempt 2 - we know that leftovers from the stack have no matches, since we save the index, maybe we can find the
+//Solution - we know that leftovers from the stack have no matches, since we save the index, maybe we can find the
 //substrings from each tagged index
 var longestValidParentheses = function(s) {
     //Faster mapping solution

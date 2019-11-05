@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af35f032-76f8-44ba-9c26-83cee20f3236" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/20_ValidParantheses/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/20_ValidParantheses/20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +24,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/32_LongestValidParantheses/32.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="186">
+              <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="98" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/26_RemoveDuplicates/26.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/14_LongestCommonPrefix/14.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -34,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -45,6 +65,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>console</find>
+      <find>stack[n][0]</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,8 +81,10 @@
         <option value="$PROJECT_DIR$/7_ReverseInteger/7.js" />
         <option value="$PROJECT_DIR$/50_PowXN/50.js" />
         <option value="$PROJECT_DIR$/20_ValidParantheses/20.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/32_LongestValidParantheses/32.js" />
+        <option value="$PROJECT_DIR$/26_RemoveDuplicates/26.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/14_LongestCommonPrefix/14.js" />
       </list>
     </option>
   </component>
@@ -92,7 +115,7 @@
             <path>
               <item name="leetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Desktop/leetCode/LC_Javascript" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="32_LongestValidParantheses" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="14_LongestCommonPrefix" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -107,7 +130,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572911480995" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/32_LongestValidParantheses/32.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14_LongestCommonPrefix/14.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -125,7 +148,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.32LongestValidParantheses">
+  <component name="RunManager" selected="Node.js.14LongestCommonPrefix">
+    <configuration name="14LongestCommonPrefix" type="NodeJSConfigurationType" path-to-js-file="14_LongestCommonPrefix/14.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="155MinStack" type="NodeJSConfigurationType" path-to-js-file="155_MinStack/155.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -133,6 +159,9 @@
       <method v="2" />
     </configuration>
     <configuration name="20ValidParantheses" type="NodeJSConfigurationType" path-to-js-file="20_ValidParantheses/20.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="26RemoveDuplicates" type="NodeJSConfigurationType" path-to-js-file="26_RemoveDuplicates/26.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="2AddTwoNumbers" type="NodeJSConfigurationType" path-to-js-file="2_AddTwoNums/2.js" working-dir="$PROJECT_DIR$">
@@ -148,6 +177,16 @@
       <method v="2" />
     </configuration>
     <configuration name="7ReverseInteger" type="NodeJSConfigurationType" path-to-js-file="7_ReverseInteger/7.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="14LongestCommonPrefix" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run14" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="155MinStack" type="js.build_tools.npm">
@@ -175,6 +214,16 @@
       <command value="run" />
       <scripts>
         <script value="run20" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="26RemoveDuplicates" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run26" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -243,13 +292,17 @@
       <item itemvalue="Node.js.205IsomorphicString" />
       <item itemvalue="Node.js.20ValidParantheses" />
       <item itemvalue="Node.js.32LongestValidParantheses" />
+      <item itemvalue="Node.js.26RemoveDuplicates" />
       <item itemvalue="Node.js.69SqrtX" />
       <item itemvalue="Node.js.2AddTwoNumbers" />
       <item itemvalue="Node.js.50PowXN" />
       <item itemvalue="Node.js.7ReverseInteger" />
+      <item itemvalue="Node.js.14LongestCommonPrefix" />
       <item itemvalue="npm.155MinStack" />
       <item itemvalue="npm.7ReverseInteger" />
+      <item itemvalue="npm.14LongestCommonPrefix" />
       <item itemvalue="npm.20ValidParantheses" />
+      <item itemvalue="npm.26RemoveDuplicates" />
       <item itemvalue="npm.50PowXN" />
       <item itemvalue="npm.205IsomorphicString" />
       <item itemvalue="npm.32LongestValidParantheses" />
@@ -273,7 +326,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34913000" />
+    <option name="totallyTimeSpent" value="40580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1916" y="0" width="1928" height="1048" extended-state="6" />
@@ -336,6 +389,24 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/26_RemoveDuplicates/26.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/26_RemoveDuplicates/26.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/14_LongestCommonPrefix/14.js</url>
+          <line>60</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="javascript-exception">
@@ -352,52 +423,52 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>stack[n - 1][0]</expression-string>
+        <expression-string>strs.length - 1</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>stack[n][0] + 1</expression-string>
+        <expression-string>strs[i].substring(0, n + 1)</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>s.substring(stack[n][0] + 1, stack[n - 1][0])</expression-string>
+        <expression-string>strs[i].substring(0, n)</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>idx</expression-string>
+        <expression-string>currentPrefix</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>acc[acc.length - 1][0]</expression-string>
+        <expression-string>strs[i]</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(!(acc[acc.length - 1][0] === cur[0] + 1))</expression-string>
+        <expression-string>currentPrefix.substr(0, currentPrefix.length -1 )</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>cur[0] + 1</expression-string>
+        <expression-string>currentPrefix.substr(0, currentPrefix.length)</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>acc</expression-string>
+        <expression-string>currentPrefix -= 'a'</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>cur[0]</expression-string>
+        <expression-string>currentPrefix.splice(currentPrefix.length -1, 0)</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>cur</expression-string>
+        <expression-string>acc[acc.length - 1] === cur</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -459,17 +530,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/32_LongestValidParantheses/32.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="186">
+          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="98" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/32_LongestValidParantheses/32.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26_RemoveDuplicates/26.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_LongestCommonPrefix/14.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
