@@ -12,7 +12,8 @@
     "run32": "node %NODE_DEBUG_OPTION% ./32_LongestValidParantheses/32.js --arguments",
     "run26": "node %NODE_DEBUG_OPTION% ./26_RemoveDuplicates/26.js --arguments",
     "run14": "node %NODE_DEBUG_OPTION% ./14_LongestCommonPrefix/14.js --arguments",
-    "run9": "node %NODE_DEBUG_OPTION% ./9_PalindromeNumber/9.js --arguments"
+    "run9": "node %NODE_DEBUG_OPTION% ./9_PalindromeNumber/9.js --arguments",
+    "run234": "node %NODE_DEBUG_OPTION% ./234_PalindromeLinkedList/234.js --arguments"
   },
   "private": true
 }
