@@ -54,7 +54,8 @@ var longestValidParentheses_attempt1 = function(s) {
     return longestPair;
 };
 
-//Attempt 2 - we know that leftovers from the stack have no matches, since we save the index, maybe we can substring
+//Attempt 2 - we know that leftovers from the stack have no matches, since we save the index, maybe we can find the
+//substrings from each tagged index
 var longestValidParentheses = function(s) {
     //Faster mapping solution
     let pairs = {
@@ -63,6 +64,7 @@ var longestValidParentheses = function(s) {
 
     let stack = [];
     let k = s.length;
+    let l = k;
     while (k--) {
         if (stack.length === 0) {
             stack.push([k, s[k]]);
@@ -76,65 +78,56 @@ var longestValidParentheses = function(s) {
             }
         }
     }
-    // console.log(stack);
 
     //if there are no leftovers, then we know everything had a pair
     if (stack.length === 0) {
-        return s.length;
+        return l;
     }
     //we know it will be split in two
     if (stack.length === 1) {
         let str = s.substring(0, stack[0][0]);
-        let str2 = s.substring(stack[0][0] + 1, s.length);
+        let str2 = s.substring(stack[0][0] + 1, l);
 
         return str.length > str2.length ? str.length: str2.length;
     }
 
-    //we must join adjacent values
-    stack.reduce((acc, cur, idx, src) => {
-        if (acc.length === 0) {
-            acc.push(cur);
-        }
-        else {
-            if (!(acc[acc.length - 1][0] === cur[0] + 1)) {
-                acc.push(cur);
-            }
-        }
-
-        return acc;
-    },[]);
-    console.log(stack);
-
     let longestSubstring = 0;
     let n = stack.length;
     while (n--) {
+        //on the first check, go from 0 to first index
+        let i = stack[n][0];
+        if (n === stack.length - 1) {
+            let str = s.substring(0, i);
+            if (str.length > longestSubstring) {
+                longestSubstring = str.length;
+            }
+        }
+
         if (stack[n - 1] !== undefined) {
-            let str = s.substring(stack[n][0] + 1, stack[n - 1][0]);
+
+            let str = s.substring(i + 1, stack[n - 1][0]);
             if (str.length > longestSubstring) {
                 longestSubstring = str.length;
             }
         }
         else {
-            let str = s.substring(stack[n+1][0] + 1, stack[n][0]);
-            let str2 = s.substring(stack[n][0] + 1, s.length);
-            if (str.length >= str2.length) {
+            let str = s.substring(stack[n+1][0] + 1, i);
+            let str2 = s.substring(i + 1, l);
+            if ((str.length >= str2.length) && str.length > longestSubstring) {
                 longestSubstring = str.length;
             }
-            else {
+            else if (str2.length > longestSubstring) {
                 longestSubstring = str2.length;
             }
         }
     }
-    // if (stack.length === 1) {
-    //     return s.length - 1;
-    // }
 
     return longestSubstring;
 };
 
 
 function runTest() {
-    console.log(longestValidParentheses("))))((()(("));
+    console.log(longestValidParentheses("(()))())("));
 }
 
 runTest();
