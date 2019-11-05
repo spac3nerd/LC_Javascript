@@ -85,7 +85,7 @@ var isValid = function(s) {
 
 
 function runTest() {
-    console.log(isValid("()[]{}"));
+    console.log(isValid("()(())"));
 }
 
 runTest();
