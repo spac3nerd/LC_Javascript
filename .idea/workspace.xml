@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af35f032-76f8-44ba-9c26-83cee20f3236" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_ValidParantheses/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/20_ValidParantheses/20.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="af35f032-76f8-44ba-9c26-83cee20f3236" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +10,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/155_MinStack/155.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+            <state relative-caret-position="1665">
+              <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -27,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/32_LongestValidParantheses/32.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="1455">
               <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="98" selection-end-column="37" />
             </state>
           </provider>
@@ -45,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/14_LongestCommonPrefix/14.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="570">
               <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
             </state>
           </provider>
@@ -54,17 +50,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9_PalindromeNumber/9.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
+            <state relative-caret-position="645">
               <caret line="43" selection-start-line="43" selection-end-line="47" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/234_PalindromeLinkedList/234.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/35_SearchInsertPosition/35.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -81,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7_ReverseInteger/7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="75">
               <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -126,6 +131,7 @@
         <option value="$PROJECT_DIR$/9_PalindromeNumber/9.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/234_PalindromeLinkedList/234.js" />
+        <option value="$PROJECT_DIR$/35_SearchInsertPosition/35.js" />
       </list>
     </option>
   </component>
@@ -136,9 +142,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1916" />
-    <option name="width" value="1928" />
-    <option name="height" value="1048" />
+    <option name="x" value="3840" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -156,7 +162,7 @@
             <path>
               <item name="leetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Desktop/leetCode/LC_Javascript" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="2_AddTwoNums" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="234_PalindromeLinkedList" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -171,7 +177,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572911480995" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/234_PalindromeLinkedList/234.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/35_SearchInsertPosition/35.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -189,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.234PalindromeLinkedList">
+  <component name="RunManager" selected="Node.js.35SearchInsertPosition">
     <configuration name="14LongestCommonPrefix" type="NodeJSConfigurationType" path-to-js-file="14_LongestCommonPrefix/14.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -212,6 +218,9 @@
       <method v="2" />
     </configuration>
     <configuration name="32LongestValidParantheses" type="NodeJSConfigurationType" path-to-js-file="32_LongestValidParantheses/32.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="35SearchInsertPosition" type="NodeJSConfigurationType" path-to-js-file="35_SearchInsertPosition/35.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="50PowXN" type="NodeJSConfigurationType" path-to-js-file="50_PowXN/50.js" working-dir="$PROJECT_DIR$">
@@ -367,6 +376,7 @@
       <item itemvalue="Node.js.14LongestCommonPrefix" />
       <item itemvalue="Node.js.9PalindromeNumber" />
       <item itemvalue="Node.js.234PalindromeLinkedList" />
+      <item itemvalue="Node.js.35SearchInsertPosition" />
       <item itemvalue="npm.155MinStack" />
       <item itemvalue="npm.7ReverseInteger" />
       <item itemvalue="npm.9PalindromeNumber" />
@@ -393,14 +403,15 @@
       <updated>1572624057469</updated>
       <workItem from="1572624061573" duration="6349000" />
       <workItem from="1572649472246" duration="12222000" />
+      <workItem from="1573435741467" duration="1190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44555000" />
+    <option name="totallyTimeSpent" value="45745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="0" width="1928" height="1048" extended-state="6" />
+    <frame x="3840" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
@@ -412,8 +423,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286026" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39847162" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39810926" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -457,38 +468,33 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/32_LongestValidParantheses/32.js</url>
           <line>95</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/26_RemoveDuplicates/26.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/26_RemoveDuplicates/26.js</url>
           <line>19</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/14_LongestCommonPrefix/14.js</url>
           <line>61</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/234_PalindromeLinkedList/234.js</url>
-          <line>28</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="36" />
+          <line>64</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/234_PalindromeLinkedList/234.js</url>
-          <line>64</line>
+          <url>file://$PROJECT_DIR$/35_SearchInsertPosition/35.js</url>
+          <line>17</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="37" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -591,14 +597,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/155_MinStack/155.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        <state relative-caret-position="1665">
+          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/32_LongestValidParantheses/32.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="1455">
           <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="98" selection-end-column="37" />
         </state>
       </provider>
@@ -612,15 +618,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/14_LongestCommonPrefix/14.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="570">
           <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/9_PalindromeNumber/9.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="645">
           <caret line="43" selection-start-line="43" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_ReverseInteger/7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -628,16 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_ReverseInteger/7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,8 +656,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/234_PalindromeLinkedList/234.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35_SearchInsertPosition/35.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

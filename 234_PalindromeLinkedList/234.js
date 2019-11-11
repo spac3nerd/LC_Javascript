@@ -19,7 +19,7 @@ var isPalindrome = function(head) {
     while (head !== null) {
         v = head.val;
         if (v < 0)
-            return true;
+            return false;
         i += v * Math.pow(10, mag);
         mag++;
         head = head.next;
