@@ -19,12 +19,10 @@ let removeElement = (nums, val) => {
     for (let k = 0; k < nums.length; k++) {
         if (nums[k] === val) {
             nums[k] = nums[count - 1];
-            nums[count - 1] = '_';
             count--;
             k--;
         }
     }
-    console.log(nums);
     return count;
 };
 
