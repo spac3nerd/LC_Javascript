@@ -15,6 +15,7 @@ let getConcatenation1 = (nums) => {
     return c;
 };
 
+//an even more trivial solution
 let getConcatenation = (nums) => {
     return [...nums,...nums];
 };
