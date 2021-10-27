@@ -3,8 +3,6 @@
 let checkSecondLeastSig = (digits, index) => {
     //if index < 0, then we know that we must pre-pend another element as the most significant integer
     if (index < 0) {
-        //digits = prepend(1, digits);
-        //return;
         digits.unshift(1);
         return;
     }
@@ -30,16 +28,10 @@ let plusOne = (digits) => {
     let leastSig = digits[digits.length - 1];
     if (leastSig <= 8) {
         digits[digits.length - 1] = leastSig + 1;
-
     }
     else {
-        if (digits.length === 1) {
-            return [1, 0];
-        }
-        else {
-            checkSecondLeastSig(digits, digits.length - 1);
-            return digits;
-        }
+        checkSecondLeastSig(digits, digits.length - 1);
+        return digits;
     }
     return digits;
 };
