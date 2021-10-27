@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af35f032-76f8-44ba-9c26-83cee20f3236" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/66_PlusOne/66.js" beforeDir="false" afterPath="$PROJECT_DIR$/66_PlusOne/66.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+            <state relative-caret-position="340">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -88,13 +88,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/66_PlusOne/66.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="527">
               <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1929_ConcatenationOfArray/1929.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -154,8 +159,8 @@
         <option value="$PROJECT_DIR$/29_DivideTwoIntegers/29.js" />
         <option value="$PROJECT_DIR$/27_RemoveElement/27.js" />
         <option value="$PROJECT_DIR$/41_FirstMissingPositive/41.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/66_PlusOne/66.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -216,7 +221,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635368425202" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635368624880" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/35_SearchInsertPosition/35.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -235,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.66PlusOne">
+  <component name="RunManager" selected="npm.1929ConcatenationOfArray">
     <configuration name="14LongestCommonPrefix" type="NodeJSConfigurationType" path-to-js-file="14_LongestCommonPrefix/14.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -290,6 +295,16 @@
       <command value="run" />
       <scripts>
         <script value="run155" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="1929ConcatenationOfArray" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run1929" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -449,6 +464,7 @@
       <item itemvalue="npm.29DivideTwoIntegers" />
       <item itemvalue="npm.41FirstMissingPositive" />
       <item itemvalue="npm.66PlusOne" />
+      <item itemvalue="npm.1929ConcatenationOfArray" />
       <item itemvalue="npm.7ReverseInteger" />
       <item itemvalue="npm.9PalindromeNumber" />
       <item itemvalue="npm.14LongestCommonPrefix" />
@@ -476,18 +492,17 @@
       <workItem from="1572649472246" duration="12222000" />
       <workItem from="1573435741467" duration="1190000" />
       <workItem from="1635179154745" duration="6137000" />
-      <workItem from="1635361872043" duration="6745000" />
+      <workItem from="1635361872043" duration="7054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59860000" />
+    <option name="totallyTimeSpent" value="60169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,7 +511,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -780,17 +795,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/66_PlusOne/66.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+        <state relative-caret-position="527">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/66_PlusOne/66.js">
+    <entry file="file://$PROJECT_DIR$/1929_ConcatenationOfArray/1929.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="340">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>

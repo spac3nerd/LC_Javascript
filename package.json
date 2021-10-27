@@ -17,7 +17,11 @@
     "run27": "node %NODE_DEBUG_OPTION% ./27_RemoveElement/27.js --arguments",
     "run29": "node %NODE_DEBUG_OPTION% ./29_DivideTwoIntegers/29.js --arguments",
     "run41": "node %NODE_DEBUG_OPTION% ./41_FirstMissingPositive/41.js --arguments",
-    "run66": "node %NODE_DEBUG_OPTION% ./66_PlusOne/66.js --arguments"
+    "run66": "node %NODE_DEBUG_OPTION% ./66_PlusOne/66.js --arguments",
+    "run1929": "node %NODE_DEBUG_OPTION% ./1929_ConcatenationOfArray/1929.js --arguments"
+
+
+
   },
   "private": true
 }
