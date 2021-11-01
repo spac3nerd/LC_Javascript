@@ -21,7 +21,8 @@
     "run1929": "node %NODE_DEBUG_OPTION% ./1929_ConcatenationOfArray/1929.js --arguments",
     "run2011": "node %NODE_DEBUG_OPTION% ./2011_FinalValueOfVariable/2011.js --arguments",
     "run217": "node %NODE_DEBUG_OPTION% ./217_ContainsDuplicate/217.js --arguments",
-    "run53": "node %NODE_DEBUG_OPTION% ./53_MaximumSubarray/53.js --arguments"
+    "run53": "node %NODE_DEBUG_OPTION% ./53_MaximumSubarray/53.js --arguments",
+    "run3": "node %NODE_DEBUG_OPTION% ./3_LongestSubstringWithoutRepeating/3.js --arguments"
 
 
 
