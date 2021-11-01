@@ -22,7 +22,10 @@
     "run2011": "node %NODE_DEBUG_OPTION% ./2011_FinalValueOfVariable/2011.js --arguments",
     "run217": "node %NODE_DEBUG_OPTION% ./217_ContainsDuplicate/217.js --arguments",
     "run53": "node %NODE_DEBUG_OPTION% ./53_MaximumSubarray/53.js --arguments",
-    "run3": "node %NODE_DEBUG_OPTION% ./3_LongestSubstringWithoutRepeating/3.js --arguments"
+    "run3": "node %NODE_DEBUG_OPTION% ./3_LongestSubstringWithoutRepeating/3.js --arguments",
+    "run34": "node %NODE_DEBUG_OPTION% ./34_FirstAndLastPositionOfElementInSorted/34.js --arguments",
+    "run278": "node %NODE_DEBUG_OPTION% ./278_FirstBadVersion/278.js --arguments",
+    "run387": "node %NODE_DEBUG_OPTION% ./387_FirstUniqueCharacterInString/387.js --arguments"
 
 
 
