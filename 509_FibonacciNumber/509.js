@@ -10,9 +10,6 @@ let fib = (n) => {
 
 
 
-
-
-
 function runTest() {
     console.log(fib(2));
     console.log(fib(3));
@@ -20,3 +17,6 @@ function runTest() {
 }
 
 runTest();
+
+
+
