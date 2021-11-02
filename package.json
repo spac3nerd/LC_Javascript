@@ -30,7 +30,8 @@
     "run487": "node %NODE_DEBUG_OPTION% ./487_MaxConsecutiveOnesII/487.js --arguments",
     "run509": "node %NODE_DEBUG_OPTION% ./509_FibonacciNumber/509.js --arguments",
     "run223": "node %NODE_DEBUG_OPTION% ./223_RectangleArea/223.js --arguments",
-    "run4": "node %NODE_DEBUG_OPTION% ./4_MedianOfTwoSortedArrays/4.js --arguments"
+    "run4": "node %NODE_DEBUG_OPTION% ./4_MedianOfTwoSortedArrays/4.js --arguments",
+    "run13": "node %NODE_DEBUG_OPTION% ./13_RomanToInteger/13.js --arguments"
 
 
 

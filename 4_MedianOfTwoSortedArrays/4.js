@@ -9,6 +9,9 @@ let findMedianSortedArrays = (nums1, nums2) => {
     let largerArr = smallerArr === nums2 ? nums1 : nums2;
 
     if (largerArr.length === 1) {
+        if (smallerArr.length === 0) {
+            return largerArr[0];
+        }
         return (largerArr[0] + smallerArr[0]) / 2;
     }
 
