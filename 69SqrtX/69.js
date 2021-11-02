@@ -62,6 +62,8 @@ var mySqrt_1 = function(x) {
 
 //This one is trivial, but I think there's an even better solution by using the mechanism from the first solution
 var mySqrt_2 = function(x) {
+
+
     if (x === 0) {
         return 0;
     }
@@ -70,6 +72,7 @@ var mySqrt_2 = function(x) {
     }
 
     //we must find an upper bound
+    let boundFound = false;
     let a = 1;
 
     while (!boundFound) {
@@ -80,6 +83,8 @@ var mySqrt_2 = function(x) {
             a++;
         }
     }
+
+
 };
 
 var mySqrt = function(x) {
@@ -97,7 +102,7 @@ var mySqrt = function(x) {
         let mid = Math.ceil(cur / 2);
         let val = mid * mid;
         if (val === target) {
-            return val;
+            return mid;
         }
         if (val > target) {
             //iterate on bottom half

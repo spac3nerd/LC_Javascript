@@ -2,8 +2,8 @@
  * @param {string} s
  * @return {number}
  */
-    //First try, with about 30 seconds of thinking about the problem
-let firstUniqChar = (s) => {
+    //First try, with about 30 seconds of thinking about the problem, trivial O(N) solution
+let firstUniqChar1 = (s) => {
     let map = {};
     let stack = [];
     let firstUnique = -1;
@@ -29,6 +29,31 @@ let firstUniqChar = (s) => {
     }
         return firstUnique;
 };
+
+//I think we can make this simpler by removing the stack altogether
+let firstUniqChar = (s) => {
+    let map = {};
+    let k;
+    for (k = s.length - 1; k >= 0; k--) {
+        if (map.hasOwnProperty(s[k])) {
+            map[s[k]] += 1;
+        }
+        else {
+            map[s[k]] = 1;
+        }
+    }
+
+    for (k = 0; k < s.length; k++) {
+        if (map.hasOwnProperty(s[k]) && map[s[k]] === 1) {
+            return k;
+        }
+    }
+
+    return -1;
+};
+
+
+
 
 function runTest() {
     console.log(firstUniqChar("leetcode"));
