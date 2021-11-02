@@ -26,7 +26,9 @@
     "run34": "node %NODE_DEBUG_OPTION% ./34_FirstAndLastPositionOfElementInSorted/34.js --arguments",
     "run278": "node %NODE_DEBUG_OPTION% ./278_FirstBadVersion/278.js --arguments",
     "run387": "node %NODE_DEBUG_OPTION% ./387_FirstUniqueCharacterInString/387.js --arguments",
-    "run529": "node %NODE_DEBUG_OPTION% ./529_Minesweeper/529.js --arguments"
+    "run529": "node %NODE_DEBUG_OPTION% ./529_Minesweeper/529.js --arguments",
+    "run487": "node %NODE_DEBUG_OPTION% ./487_MaxConsecutiveOnesII/487.js --arguments",
+    "run509": "node %NODE_DEBUG_OPTION% ./509_FibonacciNumber/509.js --arguments"
 
 
 

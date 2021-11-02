@@ -73,8 +73,13 @@ let updateBoard = (board, click) => {
         return board;
     }
     if (clickCell === "E") {
-        //board[click[0]][click[1]] = "B";
-        revealAdjacent(click);
+        let mineCount = checkAdjacent([click[0], click[1]]);
+        if (mineCount > 0) {
+            board[click[0]][click[1]] = mineCount.toString();
+        }
+        else {
+            revealAdjacent(click);
+        }
     }
 
     return board;
