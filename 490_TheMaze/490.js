@@ -150,6 +150,10 @@ let hasPath1 = (maze, start, destination) => {
 };
 
 
+
+
+//*****Solution 2****
+
 /**
  * @param {number[][]} maze
  * @param {number[]} start
@@ -159,6 +163,8 @@ let hasPath1 = (maze, start, destination) => {
     //More optimized second solution by doing the following:
     //  - It can just use the current cell instead of creating a tree
     //  - The check for the ability to move is not required, we can just simple call getNewX
+    //  - Allocation for a unique intermediate new cell value is not required
+    //  - No need to check for the key before generating a new position cell, we can just call move() blindly
     //This still contains the visited map idea from the first solution to act as an end state
 let hasPath = (maze, start, destination) => {
 
@@ -214,6 +220,7 @@ let hasPath = (maze, start, destination) => {
             return [k, cell[1]];
         };
 
+        //creates a string key to mark a cell as previously visited
         let createKey = (cell) => {
             return cell[0].toString() + cell[1].toString();
         };
@@ -225,7 +232,7 @@ let hasPath = (maze, start, destination) => {
         //recursive movement function which builds the tree
         let move = function(cell) {
 
-            if (pathExists) {
+            if (pathExists || visitedMap.hasOwnProperty(createKey(cell))) {
                 return;
             }
 
@@ -235,25 +242,10 @@ let hasPath = (maze, start, destination) => {
                 pathExists = true;
             }
 
-            let nC = getNewLeft(cell);
-            if (!visitedMap.hasOwnProperty(createKey(nC))) {
-                move(nC);
-            }
-
-            nC = getNewRight(cell);
-            if (!visitedMap.hasOwnProperty(createKey(nC))) {
-                move(nC);
-            }
-
-            nC = getNewUp(cell);
-            if (!visitedMap.hasOwnProperty(createKey(nC))) {
-                move(nC);
-            }
-
-            nC = getNewDown(cell);
-            if (!visitedMap.hasOwnProperty(createKey(nC))) {
-                move(nC);
-            }
+            move(getNewLeft(cell));
+            move(getNewRight(cell));
+            move(getNewUp(cell));
+            move(getNewDown(cell));
         };
         move(start);
         return pathExists;
