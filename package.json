@@ -34,7 +34,11 @@
     "run13": "node %NODE_DEBUG_OPTION% ./13_RomanToInteger/13.js --arguments",
     "run12": "node %NODE_DEBUG_OPTION% ./12_IntegerToRoman/12.js --arguments",
     "run21": "node %NODE_DEBUG_OPTION% ./21_MergeTwoSortedLists/21.js --arguments",
-    "run98": "node %NODE_DEBUG_OPTION% ./98_ValidateBinarySearchTree/98.js --arguments"
+    "run98": "node %NODE_DEBUG_OPTION% ./98_ValidateBinarySearchTree/98.js --arguments",
+    "run94": "node %NODE_DEBUG_OPTION% ./94_BinarySearchTreeInorderTraversal/94.js --arguments",
+    "run144": "node %NODE_DEBUG_OPTION% ./144_BinaryTreePreorderTraversal/144.js --arguments",
+    "run11": "node %NODE_DEBUG_OPTION% ./11_ContainerWithMostWater/11.js --arguments"
+
 
 
   },

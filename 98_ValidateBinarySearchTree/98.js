@@ -67,6 +67,9 @@ let isValidBST1 = (root) => {
 
 
 
+//Second attempt - I think wecan leverage teh fact that a valid BST is really a sorted list
+//  therefore, we can just keep track of the current integer on the last left child call
+//  if subsequent nodes have a value equal to or less than this global min, we know it is not a valid BST
 /**
  * @param {TreeNode} root
  * @return {boolean}
@@ -90,12 +93,11 @@ let isValidBST = (root) => {
         }
 
         if (min !== null) {
-            if (node.val < min) {
+            if (node.val <= min) {
                 v = false;
             }
         }
         min = node.val;
-
 
         //visit right children next
         if (node.right !== null) {
@@ -107,13 +109,11 @@ let isValidBST = (root) => {
                 visitNode(node.right);
             }
         }
-
     };
 
     visitNode(root);
 
     return v;
-
 };
 
 //expect true
