@@ -10,6 +10,8 @@ let maxArea = (height) => {
     let k = 0, n = height.length - 1, m = 0;
 
     while (k < n) {
+
+        //we have to compare against the current water held at indices k, n
         m = Math.max(m, (n - k) * Math.min(height[k], height[n]));
 
         if (height[k] < height[n]) {

@@ -37,7 +37,11 @@
     "run98": "node %NODE_DEBUG_OPTION% ./98_ValidateBinarySearchTree/98.js --arguments",
     "run94": "node %NODE_DEBUG_OPTION% ./94_BinarySearchTreeInorderTraversal/94.js --arguments",
     "run144": "node %NODE_DEBUG_OPTION% ./144_BinaryTreePreorderTraversal/144.js --arguments",
-    "run11": "node %NODE_DEBUG_OPTION% ./11_ContainerWithMostWater/11.js --arguments"
+    "run11": "node %NODE_DEBUG_OPTION% ./11_ContainerWithMostWater/11.js --arguments",
+    "run589": "node %NODE_DEBUG_OPTION% ./589_N-aryTreePreorderTraversal/589.js --arguments",
+    "run590": "node %NODE_DEBUG_OPTION% ./590_N-aryPostorderTraversal/590.js --arguments",
+    "run145": "node %NODE_DEBUG_OPTION% ./145_BinaryTreePostorderTraversal/145.js --arguments"
+
 
 
 
