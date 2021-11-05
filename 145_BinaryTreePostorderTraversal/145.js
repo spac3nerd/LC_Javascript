@@ -6,7 +6,7 @@ function TreeNode(val, left, right) {
 }
 
 
-
+//This is really just problem 144, doing it for the sake of completion
 /**
  * @param {TreeNode} root
  * @return {number[]}
