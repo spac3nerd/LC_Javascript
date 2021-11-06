@@ -12,32 +12,44 @@ function ListNode(val, next) {
  * @return {ListNode}
  */
 let mergeTwoLists = (l1, l2) => {
-    if (l1 === undefined) {
-        if (l2 === undefined) {
-            return undefined;
+    if (l1 === null) {
+        if (l2 === null) {
+            return null;
         }
         return l2;
     }
-    if (l2 === undefined) {
+    if (l2 === null) {
         return l1;
     }
 
-    // let sL = l1.val > l2.val ? l1 : l2;
+    let target = l1.val <= l2.val ? 1 : 2;
 
-    let cL1 = l1;
+    let retRef = target === 1 ? l1 : l2;
+
+    let cL1 = target === 1 ? l1 : l2;
+
+    let oL = cL1 === l1 ? l2 : l1;
     //merge into l1
-    while (l2.next !== null) {
-        if (l2.val >= cL1.val) {
-
+    while (oL !== null) {
+        if (oL.val >= cL1.val) {
+            if (cL1.next && oL.val > cL1.next.val) {
+                cL1 = cL1.next;
+                continue;
+            }
             let t = cL1.next;
-            cL1.next = l2;
+            let n = oL.next;
+            cL1.next = oL;
             cL1.next.next = t;
-            l2 = l2.next;
+            oL = n;
+            cL1 = cL1.next;
+        }
+        else {
+            cL1 = cL1.next;
         }
 
     }
 
-    return l1;
+    return retRef;
 
 };
 
@@ -66,11 +78,11 @@ function runTest() {
 
     let l1 = listNodeFactory([1, 2, 4]);
     let l2 = listNodeFactory([1, 3, 4]);
-    let a1 = listNodeFactory([]);
-    let a2 = listNodeFactory([]);
+    let a1 = listNodeFactory([2]);
+    let a2 = listNodeFactory([1]);
 
     console.log(mergeTwoLists(l1, l2));
-    // console.log(mergeTwoLists(a1, a2));
+   console.log(mergeTwoLists(a1, a2));
 }
 
 runTest();

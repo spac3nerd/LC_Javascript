@@ -78,7 +78,6 @@ let kthSmallest = (root, k) => {
 
     visitNode(root, i);
 
-    // return i === 0 ? root.val : f;
     return f;
 };
 
