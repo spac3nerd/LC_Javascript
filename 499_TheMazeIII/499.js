@@ -43,17 +43,9 @@ let findShortestWay = (maze, ball, hole) => {
     while (queue.length > 0) {
 
         let k = queue.shift();
-        // console.log(k.path);
         let x = k.cell[0], y = k.cell[1];
         if ((length[k.cell[0]][k.cell[1]] < k.moves)) {
             continue;
-            // if (k.path === "drd") {
-            //     console.log("noo")
-            // }
-            // if (pArr[k.cell[0]][k.cell[1]].indexOf(k.path.slice(0, -1)) === 0 && k.path.slice(0, -1).indexOf(pArr[k.cell[0]][k.cell[1]]) === 0) {
-            //     console.log(pArr[k.cell[0]][k.cell[1]] + " " + k.path);
-            //
-            // }
             if (k.path.indexOf(pArr[k.cell[0]][k.cell[1]]) === -1) {
                 if (k.moves > shortestPath) {
                     // console.log("skip");
@@ -61,11 +53,8 @@ let findShortestWay = (maze, ball, hole) => {
                 }
             }
             if (shortestPath && k.moves > shortestPath) {
-                // console.log("skip");
                 continue;
             }
-            // console.log(pArr[k.cell[0]][k.cell[1]] + " " + k.path);
-            // continue;
         }
         else {
             pArr[k.cell[0]][k.cell[1]] = k.path;
@@ -80,8 +69,6 @@ let findShortestWay = (maze, ball, hole) => {
             let xx = x;
             let yy = y;
             let c = 0;
-            let p = "";
-
 
             while (xx >= 0 && xx < mazeHeight && yy >= 0 && yy < mazeWidth && maze[xx][yy] === 0) {
 
@@ -108,8 +95,6 @@ let findShortestWay = (maze, ball, hole) => {
             }
         }
     }
-    // console.log(shortestPath);
-    // console.log(paths);
     let shortestPaths = paths.reduce((acc, item) => {
         if (item.m === shortestPath) {
             acc.push(item.p);
