@@ -44,7 +44,8 @@
     "run490": "node %NODE_DEBUG_OPTION% ./490_TheMaze/490.js --arguments",
     "run505": "node %NODE_DEBUG_OPTION% ./505_TheMazeII/505.js --arguments",
     "run499": "node %NODE_DEBUG_OPTION% ./499_TheMazeIII/499.js --arguments",
-    "run230": "node %NODE_DEBUG_OPTION% ./230_KthSmallestElementInABST/230.js --arguments"
+    "run230": "node %NODE_DEBUG_OPTION% ./230_KthSmallestElementInABST/230.js --arguments",
+    "run148": "node %NODE_DEBUG_OPTION% ./148_SortList/148.js --arguments"
 
 
 
