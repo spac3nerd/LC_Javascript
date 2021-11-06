@@ -41,7 +41,9 @@
     "run589": "node %NODE_DEBUG_OPTION% ./589_N-aryTreePreorderTraversal/589.js --arguments",
     "run590": "node %NODE_DEBUG_OPTION% ./590_N-aryPostorderTraversal/590.js --arguments",
     "run145": "node %NODE_DEBUG_OPTION% ./145_BinaryTreePostorderTraversal/145.js --arguments",
-    "run490": "node %NODE_DEBUG_OPTION% ./490_TheMaze/490.js --arguments"
+    "run490": "node %NODE_DEBUG_OPTION% ./490_TheMaze/490.js --arguments",
+    "run505": "node %NODE_DEBUG_OPTION% ./505_TheMazeII/505.js --arguments",
+    "run499": "node %NODE_DEBUG_OPTION% ./499_TheMazeIII/499.js --arguments"
 
 
 

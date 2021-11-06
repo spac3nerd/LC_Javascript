@@ -166,7 +166,7 @@ let hasPath1 = (maze, start, destination) => {
     //  - Allocation for a unique intermediate new cell value is not required
     //  - No need to check for the key before generating a new position cell, we can just call move() blindly
     //This still contains the visited map idea from the first solution to act as an end state
-let hasPath = (maze, start, destination) => {
+let hasPath2 = (maze, start, destination) => {
 
         let mazeWidth = maze[0].length;
         let mazeHeight = maze.length;
@@ -250,6 +250,63 @@ let hasPath = (maze, start, destination) => {
         move(start);
         return pathExists;
     };
+
+
+//solution 3
+// Based on a queue- also smarter about how to calculate new direction
+
+function Cell(cell, next, path, moves) {
+    this.cell = (cell===undefined ? 0 : cell);
+    this.next = (next===undefined ? null : next);
+    this.path = (path===undefined ? "" : path);
+    this.moves = (moves===undefined ? 0 : moves);
+}
+
+
+let hasPath = (maze, start, destination) => {
+    let mazeWidth = maze[0].length;
+    let mazeHeight = maze.length;
+    let directionMap = [[-1, 0], [0, 1], [1, 0], [0, -1]];
+    let queue = [];
+
+    let visitedCells = maze.map((item) => {
+        return item.map((i2) => {
+            return 0;
+        });
+    });
+
+    visitedCells[start[0]][start[1]] = 1;
+    let i = new Cell([start[0], start[1]], null, "", 0);
+    queue.push(i);
+
+    while (queue.length > 0) {
+        let k = queue.shift();
+        let x = k.cell[0], y = k.cell[1];
+
+        //for every direction
+        for (let n = 0; n < 4; n++) {
+            let xx = x;
+            let yy = y;
+
+            while (xx >= 0 && xx < mazeHeight && yy >= 0 && yy < mazeWidth && maze[xx][yy] === 0) {
+                xx+=directionMap[n][0];
+                yy+=directionMap[n][1];
+            }
+            xx-=directionMap[n][0];
+            yy-=directionMap[n][1];
+
+            if (visitedCells[xx][yy] === true) {
+                continue;
+            }
+            visitedCells[xx][yy] = true;
+            if (xx === destination[0] && yy === destination[1]) {
+                return true;
+            }
+            queue.push(new Cell([xx, yy], null, "", 0))
+        }
+    }
+    return false;
+};
 
 
 function runTest() {
