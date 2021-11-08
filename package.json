@@ -46,7 +46,8 @@
     "run499": "node %NODE_DEBUG_OPTION% ./499_TheMazeIII/499.js --arguments",
     "run230": "node %NODE_DEBUG_OPTION% ./230_KthSmallestElementInABST/230.js --arguments",
     "run148": "node %NODE_DEBUG_OPTION% ./148_SortList/148.js --arguments",
-    "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments"
+    "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments",
+    "HRNewYearChaos": "node %NODE_DEBUG_OPTION% ./hackerrank/NewYearChaos.js --arguments"
 
 
 
