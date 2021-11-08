@@ -8,11 +8,12 @@ function ListNode(val, next) {
 let merge = (l1, l2) => {
     let l = new ListNode(0);
     let p = l;
-    while (l1 != null && l2 != null) {
+    while (l1 !== null && l2 !== null) {
         if (l1.val < l2.val) {
             p.next = l1;
             l1 = l1.next;
-        } else {
+        }
+        else {
             p.next = l2;
             l2 = l2.next;
         }
