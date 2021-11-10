@@ -10,7 +10,7 @@ function hourglassSum(arr) {
         [2,2],
     ];
     let sum = 0;
-    let maxSum = 0;
+    let maxSum = Number.NEGATIVE_INFINITY;
     for (let k = 0; k < 4; k++) {
         for (let n = 0; n < 4; n++) {
             for (let a = 0; a < masks.length; a++) {
