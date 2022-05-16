@@ -9,9 +9,12 @@ function TreeNode(val, left, right) {
 var minDepth = function(root) {
 
     let minD = Infinity;
-    let inO = [];
 
     let visitNode = (node, depth) => {
+        //optimization
+        if (depth > minD) {
+            return;
+        }
 
         if (node.left === null && node.right === null) {
             minD = Math.min(minD, depth);
