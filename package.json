@@ -51,6 +51,7 @@
     "run58": "node  ./58_LengthOfLastWord/58.js --arguments",
     "run67": "node ./67_AddBinary/67.js --arguments",
     "run28": "node ./28_ImplementStrStr/28.js --arguments",
+    "run141": "node %NODE_DEBUG_OPTION% ./141_LinkedListCycle/141.js --arguments",
     "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments",
     "HRNewYearChaos": "node %NODE_DEBUG_OPTION% ./hackerrank/NewYearChaos.js --arguments",
     "HR2DArrays": "node %NODE_DEBUG_OPTION% ./hackerrank/2DArray-Hourglass.js --arguments",
