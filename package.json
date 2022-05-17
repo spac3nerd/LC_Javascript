@@ -48,16 +48,14 @@
     "run148": "node %NODE_DEBUG_OPTION% ./148_SortList/148.js --arguments",
     "run704": "node %NODE_DEBUG_OPTION% ./704_BinarySearch/704.js --arguments",
     "run111": "node %NODE_DEBUG_OPTION% ./111_MinDepthBinTree/111.js --arguments",
-    "run58": "node %NODE_DEBUG_OPTION% ./58_LengthOfLastWord/58.js --arguments",
+    "run58": "node  ./58_LengthOfLastWord/58.js --arguments",
+    "run67": "node ./67_AddBinary/67.js --arguments",
+    "run28": "node ./28_ImplementStrStr/28.js --arguments",
     "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments",
     "HRNewYearChaos": "node %NODE_DEBUG_OPTION% ./hackerrank/NewYearChaos.js --arguments",
     "HR2DArrays": "node %NODE_DEBUG_OPTION% ./hackerrank/2DArray-Hourglass.js --arguments",
     "W1": "node %NODE_DEBUG_OPTION% ./workspace/w1.js --arguments",
     "W2": "node %NODE_DEBUG_OPTION% ./workspace/w2.js --arguments"
-
-
-
-
   },
   "private": true
 }

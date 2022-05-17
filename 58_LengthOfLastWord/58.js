@@ -1,18 +1,19 @@
 
 
 var lengthOfLastWord = function(s) {
-    let mL = 0;
+    let foundChars = false;
     let l = 0;
 
-    for (let k = s.length; k > 0; k--) {
+    for (let k = s.length - 1; k >= 0; k--) {
         if (s[k] !== " ") {
+            foundChars = true;
             l++;
         }
         else {
-            mL = Math.max(l, mL);
-            l = 0;
-            if (mL !== 0) {
-                return mL;
+            //if we previously found actua characters, then we already counted the last
+            //  word and thus we can set out terminating condition
+            if (foundChars) {
+                k = -1;
             }
 
         }
@@ -26,8 +27,9 @@ var lengthOfLastWord = function(s) {
 
 //expect [1,2,3]
 function test1() {
-    lengthOfLastWord("Hello World");
-    lengthOfLastWord("   fly me   to   the moon  ");
+    // console.log(lengthOfLastWord("Hello World"));
+    // console.log(lengthOfLastWord("   fly me   to   the moon  "));
+    console.log(lengthOfLastWord("a"));
 }
 
 function runTest() {
