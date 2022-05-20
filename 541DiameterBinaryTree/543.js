@@ -1,4 +1,6 @@
 
+
+
 function TreeNode(val, left, right) {
     this.val = (val===undefined ? 0 : val);
     this.left = (left===undefined ? null : left);
@@ -6,31 +8,22 @@ function TreeNode(val, left, right) {
 }
 
 
-var minDepth = function(root) {
+var diameterOfBinaryTree = function(root) {
 
-    let minD = Infinity;
+    let maxLR = 0;
 
-    let visitNode = (node, depth) => {
-        //optimization
-        if (depth > minD) {
-            return;
+    let visitNode = (node) => {
+
+        if (node === null) {
+            return 0;
         }
 
-        if (node.left === null && node.right === null) {
-            minD = Math.min(minD, depth);
-        }
+        let l = visitNode(node.left);
+        let r = visitNode(node.right);
+        maxLR = Math.max(maxLR, l + r);
 
-        //visit left children
-        if (node.left !== null) {
-            visitNode(node.left, depth + 1);
-        }
+        return Math.max(l, r) + 1;
 
-
-        //visit right children next
-        if (node.right !== null) {
-
-            visitNode(node.right, depth + 1);
-        }
     };
 
     if (root !== null) {
@@ -40,23 +33,23 @@ var minDepth = function(root) {
         return 0;
     }
 
-    return minD;
+    return maxLR;
 
 };
 
 //expect [1,2,3]
 function test1() {
-    let one = new TreeNode(3);
-    let two = new TreeNode(9);
-    let three = new TreeNode(20);
-    let four = new TreeNode(15);
-    let five = new TreeNode(7);
+    let one = new TreeNode(1);
+    let two = new TreeNode(2);
+    let three = new TreeNode(3);
+    let four = new TreeNode(4);
+    let five = new TreeNode(5);
     one.left = two;
     one.right = three;
-    three.left = four;
-    three.right = five;
+    two.left = four;
+    two.right = five;
 
-    console.log(minDepth(one));
+    console.log(diameterOfBinaryTree(one));
 }
 
 
@@ -71,7 +64,7 @@ function test2() {
     two.left = four;
     two.right = five;
 
-    console.log(minDepth(one));
+    console.log(diameterOfBinaryTree(one));
 }
 
 function runTest() {

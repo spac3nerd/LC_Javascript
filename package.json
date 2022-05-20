@@ -54,10 +54,9 @@
     "run141": "node %NODE_DEBUG_OPTION% ./141_LinkedListCycle/141.js --arguments",
     "run771": "node %NODE_DEBUG_OPTION% ./771_JewelsAndStones/771.js --arguments",
     "run543": "node %NODE_DEBUG_OPTION% ./541DiameterBinaryTree/543.js --arguments",
-
-
-
-
+    "run19": "node %NODE_DEBUG_OPTION% ./19_RemoveNthNodeFromEnd/19.js --arguments",
+    "run150": "node %NODE_DEBUG_OPTION% ./150_EvaluateRPN/150.js --arguments",
+    "run70": "node %NODE_DEBUG_OPTION% ./70_ClimbingStairs/70.js --arguments",
     "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments",
     "HRNewYearChaos": "node %NODE_DEBUG_OPTION% ./hackerrank/NewYearChaos.js --arguments",
     "HR2DArrays": "node %NODE_DEBUG_OPTION% ./hackerrank/2DArray-Hourglass.js --arguments",
