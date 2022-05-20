@@ -57,6 +57,7 @@
     "run19": "node %NODE_DEBUG_OPTION% ./19_RemoveNthNodeFromEnd/19.js --arguments",
     "run150": "node %NODE_DEBUG_OPTION% ./150_EvaluateRPN/150.js --arguments",
     "run70": "node %NODE_DEBUG_OPTION% ./70_ClimbingStairs/70.js --arguments",
+    "run100": "node %NODE_DEBUG_OPTION% ./100_SameTree/100.js --arguments",
     "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments",
     "HRNewYearChaos": "node %NODE_DEBUG_OPTION% ./hackerrank/NewYearChaos.js --arguments",
     "HR2DArrays": "node %NODE_DEBUG_OPTION% ./hackerrank/2DArray-Hourglass.js --arguments",
