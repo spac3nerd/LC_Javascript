@@ -62,6 +62,7 @@
     "run572": "node %NODE_DEBUG_OPTION% ./572_SubtreeOfAnotherTree/572.js --arguments",
     "run198": "node %NODE_DEBUG_OPTION% ./198_HouseRobber/198.js --arguments",
     "run213": "node %NODE_DEBUG_OPTION% ./213_HouseRobberII/213.js --arguments",
+    "run746": "node %NODE_DEBUG_OPTION% ./746_MinCostClimbingStairs/746.js --arguments",
 
 
     "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments",
