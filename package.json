@@ -61,6 +61,9 @@
     "run582": "node %NODE_DEBUG_OPTION% ./582_KillProcess/582.js --arguments",
     "run572": "node %NODE_DEBUG_OPTION% ./572_SubtreeOfAnotherTree/572.js --arguments",
     "run198": "node %NODE_DEBUG_OPTION% ./198_HouseRobber/198.js --arguments",
+    "run213": "node %NODE_DEBUG_OPTION% ./213_HouseRobberII/213.js --arguments",
+
+
     "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments",
     "HRNewYearChaos": "node %NODE_DEBUG_OPTION% ./hackerrank/NewYearChaos.js --arguments",
     "HR2DArrays": "node %NODE_DEBUG_OPTION% ./hackerrank/2DArray-Hourglass.js --arguments",

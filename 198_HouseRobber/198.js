@@ -53,7 +53,6 @@ let rob = (nums) => {
         if (i > nums.length - 1) {
             return 0;
         }
-        console.log(hash[i]);
         let yes = hash.hasOwnProperty(i) ? hash[i] : nums[i] + decision(i + 2);
         let no = hash.hasOwnProperty(i) ? hash[i] : decision(i + 1);
         hash[i] = Math.max(yes, no);
