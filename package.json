@@ -63,6 +63,8 @@
     "run198": "node %NODE_DEBUG_OPTION% ./198_HouseRobber/198.js --arguments",
     "run213": "node %NODE_DEBUG_OPTION% ./213_HouseRobberII/213.js --arguments",
     "run746": "node %NODE_DEBUG_OPTION% ./746_MinCostClimbingStairs/746.js --arguments",
+    "run200": "node %NODE_DEBUG_OPTION% ./200_NumberOfIslands/200.js --arguments",
+    "run305": "node %NODE_DEBUG_OPTION% ./305_NumberOfIslandsII/305.js --arguments",
 
 
     "HRInsert": "node %NODE_DEBUG_OPTION% ./hackerrank/InsertANodeAtASpecificPosition.js --arguments",

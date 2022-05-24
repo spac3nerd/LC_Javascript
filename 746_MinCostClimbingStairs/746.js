@@ -3,9 +3,9 @@
  * @return {number}
  */
 
-let cache = {};
-let minCostClimbingStairs = (cost) => {
 
+let minCostClimbingStairs = (cost) => {
+    let cache = {};
     let climb = (i) => {
         if (i === cost.length) {
             return 0;
@@ -23,7 +23,7 @@ let minCostClimbingStairs = (cost) => {
         return (cost[i] || 0) + cache[i];
     };
 
-    return climb(0);
+    return climb(-1);
 };
 
 
